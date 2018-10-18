@@ -33,5 +33,7 @@ $('table').on('click',function(e){
   if($(e.target).attr('class')=='tile') {
     $(e.target).css("background-color",color);
   }
-  
+
 });
+
+makeGrid();
